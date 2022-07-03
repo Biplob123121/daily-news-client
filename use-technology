@@ -1,0 +1,6 @@
+-------Install next app ---------------
+1. npx create-next-app daily-news
+
+-------Install Tailwind CSS---------
+2. install tailwind css and set in the style folder
+
