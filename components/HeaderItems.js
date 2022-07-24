@@ -1,0 +1,15 @@
+import Link from "next/link";
+import React from "react";
+
+export default function HeaderItems({ Icon, href, title }) {
+  return (
+    <Link href={href}>
+      <div className="flex flex-col items-center cursor-pointer group w-12 sm:w-20 hover:text-white">
+        <Icon className="h-6 mb-1 group-hover:animate-bounce" />
+        <a className="opacity-0 group-hover:opacity-100 tracking-widest">
+          {title}
+        </a>
+      </div>
+    </Link>
+  );
+}
